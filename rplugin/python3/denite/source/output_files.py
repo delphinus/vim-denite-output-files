@@ -1,5 +1,5 @@
 from denite.source.output import Source as Base
-from denite.util import Nvim
+from denite.util import Nvim, UserContext, Candidates, abspath
 
 
 class Source(Base):
@@ -7,3 +7,9 @@ class Source(Base):
         super().__init__(vim)
         self.name = "output_files"
         self.kind = "file"
+
+    def gather_candidates(self, context: UserContext) -> Candidates:
+        return [
+            {"word": x["word"], "action__path": abspath(self.vim, x["word"])}
+            for x in super().gather_candidates(context)
+        ]
