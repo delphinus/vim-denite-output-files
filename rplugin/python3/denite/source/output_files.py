@@ -7,6 +7,7 @@ class Source(Base):
         super().__init__(vim)
         self.name = "output_files"
         self.kind = "file"
+        self.default_action = "open"
 
     def gather_candidates(self, context: UserContext) -> Candidates:
         return [
