@@ -25,15 +25,15 @@ script:
 notifications:
   slack:
     rooms:
-      secure: "h5W541VgplduecgQmftyGRw1gvsZxGpIBAeKZPXOzfklsyRn+y2sud1SlrEUDvAk\
-               bBzoz3NJGsQM/wZ6Jmc++t4jpr2Hf2xOJJddvvQ28wVsu/jUEFT9TnkTf3XfwBqd\
-               1uArGILKpVfEBzbUYn9iinj4lX8nYVaaa5GGIR05m6qxnrKmvGjvu1Jy4CohMYDo\
-               Z5E2AKDVTaisotHmSgSo4JCU6OLFFnGLgMBCmbAAA7j2xlDKSD58Jz1u8eZSupxM\
-               1hS6qQRpw5LPf9Xad7zpfa7d5tSHg6NaH7r6NgetYMHKo6viW+8uG8JWVaeZSZ4t\
-               xh1bfqQCHLVuwlZ6P4ATYBaCSyIy9vREG4038e3fbgUpn9BmfwMnDJuh/cr4kmln\
-               C3RwmFuQGZ+c/vWZKf2sBdI34fLWMI627cD+sb3BVwgNh1NN0mqzdq4VdISiozN7\
-               KTwlxVIjOkS9Zi+LLeB2mgH+YDWlBAii+h0If2v2ls4YYYMSH5J19IunXBooiYW1\
-               KA/WK6GxA+1fGoLLcZWLwiSDMzduiXvR6AKNt7K5yf3pvjCF8XSfgT7/ZOWsw7DA\
-               NeZgsbkuE19VkSbzkS5m66RURU5w2xhhmtOdmWexolNdj6914nRkeQTqMbTOlClG\
-               v1M1K558qHDD4w0mfsOhtI6BkiHVfRJSvJhDcmfZCrA="
+      secure: "I71kBDGV5Y0e1ROvwsy+ZL1qrsovY6hVatOimYY61eAcORVR1yDQX8ZIrc9Hmr25\
+               svSzqhO6sKkFD0i9nbVq8Ul67p33SDKpi3L7Whj1aT7zhQjYuiDARAid1t13UCcf\
+               sYLkPJIWdHnkevoNU1t/p2oKueiQ6uU42BIne8iq2ChFpfgde9n4JgJOG9MOJOUu\
+               JB0f4Bnz8gm1SIvRyqVhbcR/327mN5bTnJrdkrMGYX65dPWw7N1ktea6SIa2EYzz\
+               emrN7RjBjfefDKf7OsaQZsKS9fSycRBKjc6vwWwK4cs2sYhbAq8xMJnWpLq36RmH\
+               c33MVt7HZSS3zmFwIfBhWGd7HqrUZ3aNu3P7O2oMke3dY+yzC4Tw7ER0urkirx6z\
+               5IkcOSz8aSsXFFaiSRrnTXCJVEpTrzFqXV1Ep2eaffLqwxoh/GoLs6VtBYGtoHB7\
+               8KvsyzqMa6a7DKDvccqyaDvcBZnh7lXoF4/1Hqez8ZH1/OFzabykXL/1SFT5QE5s\
+               6EdPC+KrbDsMTcpee4/Pm9vOwFdZB4Z5lwXvVxWtpWj8SvXrMN8HYjHi8elhCm9X\
+               0sRUCpvEZxHKlsVHEUJClQDJRJv4r6uQIw2REmlR/NkV+b+bpBv9RfBCZFHZJgR6\
+               eoIYUXidgcjuT4a5nyk1LOYgKYaU1NT6VAJaVHvzYNQ="
     on_success: never
